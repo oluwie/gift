@@ -5,23 +5,6 @@
   "keywords": [
     "git"
   ],
-  "homepage": "https://github.com/notatestuser/gift",
-  "bugs": {
-    "url": "https://github.com/notatestuser/gift/issues"
-  },
-  "author": {
-    "name": "sentientwaffle",
-    "url": "http://sentientwaffle.github.com/"
-  },
-  "main": "./lib/index",
-  "scripts": {
-    "test": "mocha --compilers coffee:'./node_modules/coffee-script/lib/coffee-script/coffee-script'",
-    "prepublish": "coffee -o lib -c src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/notatestuser/gift.git"
-  },
   "dependencies": {
     "underscore": "1.x.x"
   },
