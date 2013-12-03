@@ -331,7 +331,7 @@ module.exports = class Repo
             else
               return callback null
 
-# Public: Sync the current branch with the remote without trying to push!.
+  # Public: Sync the current branch with the remote without trying to push!.
   #
   # Arguments: ([[remote_name, ]branch_name, ]callback)
   #
